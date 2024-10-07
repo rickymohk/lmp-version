@@ -8,7 +8,7 @@
 #pragma comment(lib, "Bthprops.lib") 
 #endif
 
-Napi::Value GetBluetoothLMPVersion(const Napi::CallbackInfo& info) {
+Napi::Value GetBluetoothLmpVersion(const Napi::CallbackInfo& info) {
     Napi::Env env = info.Env();
     int lmpVersion = -1;
 
@@ -36,7 +36,7 @@ Napi::Value GetBluetoothLMPVersion(const Napi::CallbackInfo& info) {
 }
 
 Napi::Object Init(Napi::Env env, Napi::Object exports) {
-    exports.Set(Napi::String::New(env, "getBluetoothLMPVersion"), Napi::Function::New(env, GetBluetoothLMPVersion));
+    exports.Set(Napi::String::New(env, "getBluetoothLmpVersion"), Napi::Function::New(env, GetBluetoothLmpVersion));
     return exports;
 }
 

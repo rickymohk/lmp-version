@@ -1,1 +1,1 @@
-export function getBluetoothLMPVersion() : number;
+export function getBluetoothLmpVersion() : number;
