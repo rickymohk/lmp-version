@@ -1,3 +1,1 @@
-export default {
-    getBluetoothLMPVersion() : number;
-}
+export function getBluetoothLMPVersion() : number;
