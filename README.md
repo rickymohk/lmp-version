@@ -7,7 +7,7 @@ Windows only
 
 ## Usage
 ```ts
-import { getBluetoothLMPVersion } from "lmp-version";
+import { getBluetoothLmpVersion } from "lmp-version";
 
-const lmpVersion = getBluetoothLMPVersion();
+const lmpVersion = getBluetoothLmpVersion();
 ```
